@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project charter</title>
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+    <style>
+        .icon{
+            width: 25%;
+           
+        }
+        .fa-solid {
+            width: 24px;
+            height: 24px;
+        }
+        /*.icon-user{
+            width: 25px;
+            height: 25px;
+        }
+        .icon-pr{
+            width: 25px;
+            height: 25px;
+        }*/
+        h1{
+            padding: 20px;
+            border-bottom: 1px solid grey;
+        }
+        .container-grid{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 20%;
+            grid-template-rows: 60% 40%;
+            gap: 15px;
+            margin: 25px;
+            padding: 15px;
+            background-color: rgb(12, 119, 226);
+            padding-bottom: 35px;
+            padding-right: 0px;
+           
+        }
+        .Goals{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border: 1px solid gray;
+            background-color: #fff;
+        }
+        .Team{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            border: 1px solid gray;
+            background-color: #fff;
+        }
+        .Timeline{
+            grid-column-start: 4;
+            grid-column-end: 5;
+           grid-row-start: 1;
+           grid-row-end: 3;
+           border: 1px solid gray;
+           background-color: #fff;
+        
+        }
+        .Scopes{
+            grid-column-start: 1;
+            grid-column-end: 3;
+           grid-row-start: 2;
+           grid-row-end: 3;
+         
+           background-color: #fff;
+        }
+        .Primary{
+            grid-column-start: 3;
+            grid-column-end: 4;
+           grid-row-start: 2;
+           grid-row-end: 3;
+           border: 1px solid gray;
+           background-color: #fff;
+        }
+        .timeline-p{
+            padding: 20px 10px;
+        }
+        tr{
+            padding-bottom: 40px;
+        }
+        .icon-number{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding: 10px;
+            background-color: rgb(210, 171, 246);
+            color: #fff;
+            border-radius:50% ;
+           
+        }
+        .team-p{
+            padding: 20px 10px;
+        }
+        .icon{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .primary-p{
+            padding: 20px 10px;
+        }
+
+        /*moble*/
+        @media only screen and (max-width: 767px ){
+            .container-grid{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+
+
+            .Goals{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+            .Scopes{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+               
+            }
+            .Team{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                width: 100%;
+            }
+            .Primary{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%; 
+            }
+            .Timeline{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%; 
+            }
+            
+
+
+
+
+        }
+        /*tablet*/
+        @media only screen and (min-width:768px) and (max-width:991px){
+            .container-grid{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+
+
+            .Goals{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+            .Scopes{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+               
+            }
+            .Team{
+                display: flex;
+                flex-wrap: wrap;
+              
+                width: 100%;
+            }
+            .team-p table{
+                width: 100%;
+            }
+            .tr1{
+                width: 50%;
+            }
+
+            .Primary{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%; 
+            }
+            .Timeline{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%; 
+            }
+
+        }
+        
+
+        
+        
+
+        
+
+    
+    </style>
+</head>
+<body>
+    <div class="container-grid">
+
+        <section class="Goals">
+            <h1>Goals</h1>
+            <div class="Goals-p">
+
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span class="icon">
+                                    <i class="fa-solid fa-flag-checkered"></i>
+                        </span>
+                    </td>
+                    <td>
+                        <p><strong>Goal 1</strong> </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Doloribus quia, cumque alias accusamus laborum, 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="icon">
+                            <i class="fa-solid fa-flag-checkered"></i>
+                            
+                        </span>
+                    </td>
+                    <td>
+                        <p><strong>Goal 2</strong> </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Doloribus quia, cumque alias accusamus laborum, 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="icon">
+                            <i class="fa-solid fa-flag-checkered"></i>
+                    </span>
+                    </td>
+                    <td>
+                        <p><strong>Goal 3</strong> </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Doloribus quia, cumque alias accusamus laborum, 
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </section>
+    <section class="Scopes">
+        <h1>Scopes</h1>
+        <div class="Scopes">
+
+            <table class="table">
+                <tbody>
+                <tr>
+                    <th>IN</th>
+                    <th>OUT</th>
+                </tr>
+                <tr>
+                    <td><p>        Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></td>
+                    <td><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></td>
+                </tr>
+                <tr>
+                    <td><p>         Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p></td>
+                    <td><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></td>
+                </tr>
+              </tbody>
+            </table>
+        
+    </div>
+    </section>
+    <section class="Team">
+        <h1>Team</h1>
+        <div class="team-p">
+            
+            <table >
+                <div class="tr1">
+
+                    <tr>
+                        <td><span class="icon">
+                            
+                            <i class="fa-solid fa-user"></i>
+                        </span></td>
+                        <td>
+                            <p> <strong> Member 01</strong><br>
+                                Name:...</p>
+                            </td>
+                        </tr>
+                </div>
+             <div class="tr2">
+
+                 <tr>
+                 <td><span class="icon">
+                    <i class="fa-solid fa-user"></i>
+                    </span></td>
+                    <td>
+                        <p> <strong>Member 02</strong><br>
+                            Name:...</p>
+                        </td>
+                    </tr>
+                </div> 
+                <div class="tr3">
+
+                    
+                    <tr>
+                        <td><span class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </span></td>
+                        <td>
+                            <p>  <strong>Member 03</strong><br>
+                                Name:...</p>
+                            </td>
+                        </tr>
+                 </div> 
+                 <div class="tr4">
+
+                     
+                     <tr>
+                         <td><span class="icon">
+                            <i class="fa-solid fa-user"></i>
+                            </span></td>
+                            <td>
+                                <p> <strong> Member 04</strong><br>
+                                    Name:...</p>
+                                </td>
+                            </tr>
+                        </div>
+            
+        </table>
+    </div>
+        
+    </section>
+    <section class="Primary">
+        <h1>Primary</h1>
+        <div class="primary-p">
+
+            <table>
+                <tr>
+                    <td>
+                        <span class="icon">
+                            <i class="fa-solid fa-question"></i>
+                         </span>
+                
+                    </td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et necessitatibus.</td>
+        </tr>
+        <tr>
+            <td>
+                <span class="icon">
+                    <i class="fa-solid fa-question"></i>
+                </span>
+                    
+            </td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et necessitatibus.</td>
+        </tr>
+    </table>
+</div>
+        
+    </section>
+    <section class="Timeline">
+        <h1>Timeline</h1>
+        <div class="timeline-p">
+            
+            <table>
+                <tr>
+                    <td class="icon-number"><span>01</span></td>
+                    <td>
+                       <p> <strong> Project Start</strong><br>
+                    Lorem ipsum dolor sit amet</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="icon-number"><span>02</span></td>
+                <td>
+                    <p><strong> Project Date</strong><br>
+                    Lorem ipsum dolor sit amet</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="icon-number"><span>03</span></td>
+                <td>
+                   <p> <strong> Project Date</strong><br>
+                    Lorem ipsum dolor sit amet</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="icon-number"><span>04</span></td>
+                <td>
+                    <p><strong> Project Date</strong><br>
+                    Lorem ipsum dolor sit amet</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="icon-number"><span>05</span></td>
+                <td>
+                    <p><strong> Project Date</strong><br>
+                    Lorem ipsum dolor sit amet</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="icon-number"><span>06</span></td>
+                <td>
+                   <p> <strong> Project Date</strong><br>
+                    Lorem ipsum dolor sit amet</p>
+                   
+                </td>
+            </tr>
+            <tr>
+                <td class="icon-number"><span>07</span></td>
+                <td>
+                    <p><strong> Project Date</strong><br>
+                    Lorem ipsum dolor sit amet</p>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+    
+        
+    </section>
+    </div>
+</html>
