@@ -1,0 +1,110 @@
+@media only screen and (max-width: 767px ){
+    #nav-bar .name-nav{
+        display: none;
+    }
+    #nav-bar{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px 5px;  
+    }
+    #banner{
+        width: 100%;
+        padding: 5px 5px;
+        position: relative;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .container a{
+        width: 100%;
+        text-align: justify;
+    }
+    .cap{
+        font-size:12px ;
+        padding: 5px 10px;
+    }
+    .container .nav-1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .name-banner {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,50%);
+        text-align: center;
+        top: 4%;}
+     .span1{
+        font-size: 10px;
+     }   
+     .column{
+     width: 100%;
+     }
+     .column-item h2{
+     width: 75%;
+     padding: 0px 15px;
+     }   
+     .work-detail{
+     padding: 15px;
+     }
+     .mt-cn{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     width: 100%;
+     }
+     #target{
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+    }
+    .text{
+        font-size: 18px;
+      padding-top: 15px;
+
+    }
+    #certificate{
+        margin: 0;
+        padding: 20px;
+    }
+    .cc-gt{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .view-ccgt{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        border-bottom: 1px solid #d6c08d;
+       border-right: none;
+    }
+    .view-ccgt img{
+        width: 100%;
+        filter:none
+    }
+    #project{
+        padding: 20px;
+    }
+    .du-an{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .icon-linkedin-circled{
+    
+        height: 32%;
+        width: 32%;
+    }
+    .icon-facebook-circled{
+       
+        height: 32%;
+        width: 32%;
+    }
+    .icon-github-circled{
+       
+        height: 32%;
+        width: 32%;
+    }
+ }
+
